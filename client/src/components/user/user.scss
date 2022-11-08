@@ -1,0 +1,33 @@
+.user {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  font-size: 13px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.user-avatar {
+  display: block;
+  border-radius: 50%;
+  border: 1px solid #eee;
+  min-width: 50px;
+  min-height: 50px;
+  width: 50px;
+  height: 50px;
+}
+.user-content {
+  margin-left: 8px;
+}
+.user-name {
+  font-size: 16px;
+  font-weight: 500;
+  margin-right: 8px;
+}
+.user-meta {
+  display: flex;
+  color: #969696;
+}
+.user-meta-item {
+  margin-right: 10px;
+}

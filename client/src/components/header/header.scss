@@ -1,0 +1,25 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  height: 56px;
+  background-color: #fff;
+  z-index: 100;
+  border-bottom: 1px solid #f0f0f0;
+
+  .container {
+    min-width: 768px;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  .logo {
+    float: left;
+    height: 56px;
+    margin: 0 30px;
+    color: #ec7259;
+    fill: currentColor;
+  }
+}
