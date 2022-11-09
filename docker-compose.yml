@@ -5,7 +5,6 @@ services:
     image: client
     build:
       dockerfile: ./client/Dockerfile
-      target: production
     ports:
       - '3000:3000'
     depends_on:
