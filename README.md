@@ -2,7 +2,7 @@
 
 Built with the MERN stack (MongoDB, Express, React and NodeJS).
 
-I use a online MongoDB Atlas, so I can prepare the mock data in advance.
+> I use a online MongoDB Atlas to prepare the mock data in advance, you may see "loading" in the pages, be patient.
 
 ## Technologies used
 

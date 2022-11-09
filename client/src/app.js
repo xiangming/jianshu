@@ -7,14 +7,14 @@ import { HomePage, DetailPage } from './pages';
 import '../style/global.scss';
 
 const App = () => (
-  <Layout>
-    <BrowserRouter>
+  <BrowserRouter>
+    <Layout>
       <Switch>
         <Route exact path='/' component={HomePage} />
         <Route path='/:id' children={<DetailPage />} />
       </Switch>
-    </BrowserRouter>
-  </Layout>
+    </Layout>
+  </BrowserRouter>
 );
 
 export default App;

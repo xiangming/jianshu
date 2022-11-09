@@ -4,8 +4,7 @@
   "scripts": {
     "dev": "babel-watch src/index.js",
     "start": "cross-env NODE_ENV=production node dist/index.js",
-    "postinstall": "npm run build",
-    "build": "rimraf ./dist && cross-env NPM_CONFIG_PRODUCTION=false babel -d ./dist ./src -s"
+    "build": "rimraf ./dist && babel -d ./dist ./src -s"
   },
   "dependencies": {
     "cors": "^2.8.1",
