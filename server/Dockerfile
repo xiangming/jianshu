@@ -15,4 +15,5 @@ RUN npm run build
 RUN npm install nodemon --save-dev
 
 EXPOSE 8000
-CMD ["yarn", "start"]
+
+CMD ["npm", "run", "start"]
