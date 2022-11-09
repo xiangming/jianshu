@@ -17,7 +17,7 @@ This project was created using the following technologies.
 ### Server
 
 - express (minimalist web framework for Node.js)
-- mongoose (MongoDB for nodejs)
+- mongoose (elegant mongodb object modeling for node.js)
 
 ### Database
 

@@ -21,15 +21,15 @@
     "extract-text-webpack-plugin": "^3.0.0",
     "html-webpack-plugin": "^2.30.1",
     "husky": "^8.0.1",
-    "sass-loader": "^6.0.6",
     "serve": "^9.4.0",
     "style-loader": "^0.20.1",
     "webpack": "^3.6.0",
     "webpack-dev-server": "^2.11.5",
-    "webpack-merge": "^4.1.0"
+    "webpack-merge": "^4.1.0",
+    "sass-loader": "^7.2.0",
+    "sass": "^1.22.10"
   },
   "dependencies": {
-    "node-sass": "yarn:sass",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "react-router-dom": "^5.3.4",
